@@ -1,0 +1,480 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<style>
+	.works-cited {
+		/*font-family: Arial, sans-serif;*/
+		font-size: 12pt;
+		margin-left: 20px;
+	}
+	.citation {
+		text-indent: -0.5in;
+		margin-left: 0.5in;
+		margin-bottom: 10px;
+	}
+
+	.image {
+		position: relative;
+		/* Other styling for your image container */
+	}
+
+	.image-overlay {
+		position: absolute; /* Changed from 'center' to 'absolute' */
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		opacity: 0;
+		transition: opacity 1s;
+		display: flex; /* Add flex display */
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+		pointer-events: none; /* Updated to 'none' to allow clicking on the image */
+	}
+
+	.image:hover .image-overlay {
+		opacity: 1;
+	}
+
+	.image-overlay p {
+		color: white;
+		font-size: 30px;
+		padding: 20px;
+		margin: 0; /* Add this to ensure p tag has no default margin */
+	}
+</style>
+<html>
+	<head>
+		<title>My Freedom Museum</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../static/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../../static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="top">
+						<div class="content">
+							<h1>My Freedom Museum</h1>
+							<p class="major">Final project for UVA's MDST 3115: Breaking Bad: Once Upon a Time with the Pests</p>
+							<p class="minor">Riley Immel<br> December 2023</p>
+<!--							<ul class="actions stacked">-->
+<!--								<li><a href="#uguide" class="button big wide smooth-scroll-middle">Get Started</a></li>-->
+<!--							</ul>-->
+						</div>
+						<div class="image">
+							<img src="../../static/images/bb/hehasitall.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center" id="uguide">
+						<div class="content">
+							<h2>User Guide</h2>
+							<p>Welcome to My Freedom Museum! Here you will find a web version of the paper I wrote for this assignment. The content is the same as that of my paper but this version features pictures and videos to make "exhibits" and give the true museum vibe. The only difference between this and the paper is that this version splits some paragraphs in half because of formatting reasons.
+								Simply scroll through the website to view the exhibits that exist across the two collections. If you hover your mouse over an image, a short caption will appear. At the end is a link to a pdf and docx version as well as a standalone works cited for the paper.</p>
+							<p>This was a ton of fun to make and I hope you enjoy!</p>
+							<ul class="actions small">
+								<li><a href="#intro" class="button small wide smooth-scroll-middle">Begin your visit</a></li>
+								<li><a href="#files" class="button small wide smooth-scroll-middle">Files</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="../../static/images/bb/guide.jpg" alt="" />
+							<div class="image-overlay">
+								<p>Hank reading Walt's book; he knows S5E8</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center" id="intro">
+						<div class="content">
+							<h2>Introduction</h2>
+							<p style="font-size:80%">Free your mind. Free your spirit. Free yourself. Free; that is the focus, always. That was the driving force of so much of American history; America began as a religious refuge, a place of freedom of religion and free from religious persecution (from the Church of England). The Colonies formed The United States of America over a desire for freedom from the rule of Great Britain. The Civil War was started over a desire for freedom of non-white persons as well as the freedom of States to govern as they wanted. Freedom is the blood of America and runs so deep in its history. In his “Frontier Thesis”, Frederick Jackson Turner focuses on one, albeit major, aspect of freedom in America; the Western Frontier. An area once believed to be freedom itself; but Turner argues in his essay, the switch has been flipped and that freedom is over. He attributes the development of America to, "[t]he existence of an area of free land, its continuous recession, and the advance of American settlement westward..." (1). However, he closes his essay asserting the point that, "... the frontier has gone, and with its going has closed the first period of American history" (12). Turner published this essay in 1893, 115 years before the events of Breaking Bad take place, yet still the populace, Walter White specifically, can't accept Turner's assertation that America no longer contains a place of refuge; a place of escape; a place of freedom. There is always a desire for freedom, but it is strongest when freedom is under threat or limited, bounded, by factors uncontrollable by the self. If carbon is the building block of life, then freedom is the building block of conscious life; it is a constant, ever-present in the minds of Americans. All desires, wants, or needs can be reduced to freedom; freedom from, freedom to do, freedom to be something. This museum exists because of a freedom of choice, of expression, and inside it, are artifacts and demonstrations of freedom in select forms seen in Breaking Bad, the American West, and how it as an idea and goal has transformed, been adapted, and exists today.</p>
+						</div>
+						<div class="image">
+							<img src="../../static/images/bb/frontierthesis.jpg" alt="" />
+							<div class="image-overlay">
+								<p>Cover of Frederick Jackson Turner: Wisconsin’s Historian of the Frontier by Martin Ridge</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center" id="money1">
+						<div class="content">
+							<h2>The Money Exhibit</h2>
+							<p style="font-size:80%">
+								The topic of the first exhibit is often on people’s minds as it is such a, if not the most, fundamental form of freedom: money. Money as a form of freedom is such a powerful one; it is the building block upon which all other forms of freedom exist. If all desires, needs, and wants can be reduced to freedom, they must first be reduced to money. However, the form in which money exists in has changed over time; it wasn’t always a crisp Benjamin. What about back before Turner declared the Frontier to be closed? What was money then?
+							</p>
+						</div>
+						<div class="image">
+							<img src="../../static/images/bb/moneypile.jpg" alt="Money pile"/>
+							<div class="image-overlay">
+								<p>Walt's money pile from S5E8</p>
+							</div>
+						</div>
+					</section>
+
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="money2">
+					<div class="content">
+						<p style="font-size:80%; margin-left: 5%; margin-right: 5%">
+							There was a multitude of reasons why settlers pushed the boundary of America further and further West but most common was a pursuit of wealth; a pursuit of money. However, money looked different at this time; it wasn’t until 1861  that “greenbacks” became the currency of America. The money that was so focused on, that drove people out West, was gold. The West, according to Richard Slotkin in Gunfighter Nation, was said to be, “… a land of golden opportunity for enterprising individualists, and an inexhaustible reservoir of natural wealth on which a future of limitless prosperity could be based” (Slotkin 30). What better way is there to define freedom both in a general sense but also under the focus on money than “…a future of limitless prosperity…”? This was the freedom, the money, the gold, that these Western settlers were after. The stories of those who had gone West and found unbelievable wealth became agents of desire. They were heard by those with a lust for more and desire to chase after and recreate those stories for themselves. Even as the Frontier closed and America grew up, these stories of success and rags-to-riches, they never went away; the specific details adapted as life modernized but still remained was their overall message and fascination factor. Their ability to consume someone’s mind with promises of freedom and wealth unimaginable still existed as strong as ever.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/gold_rush.jpg" alt="" />
+						<div class="image-overlay">
+							<p>Postcard depicting California gold rushers 1849</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="money3">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							Look no further than “Pilot” for a modern iteration of these stories; for the story that fascinated and drew Walter White into the clutches of desire. A story of a drug bust that appears on the news in “Pilot” is Walter White’s catalyst; it goes like this:
+						</p>
+						<blockquote style="font-style: normal; font-size: 80%; display: inline-block">
+							<b>Walt</b>: Hank? How much money is that? <br>
+							<b>Hank</b>: Almost seven hundred thousand. Pretty good haul. <br>
+							<b>Walt</b>: That’s got to be unusual, right? That kind of cash? <br>
+							<b>Hank</b>: Mmm. Not the most we ever took. It’s easy money. ‘Till we catch you.
+						</blockquote>
+					</div>
+					<div class="content">
+						<video src="../../static/images/bb/pilotscene.mp4" controls style="width: 110%; "></video>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="money4">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							In this story, Walter saw a possibility; he saw his chance to break free from his monotonous, struggling life, and achieve personal freedom but most importantly at the time to him, monetary freedom. Walter saw “…a future of limitless prosperity…” in using his chemistry knowledge to manufacture meth; but this alone wasn’t enough. The other ingredient was his arrogance; his belief that he could not only do it better, but that he could get away with it. Despite not being religious, it was Walter’s Prosperity Gospel like belief that allowed him to pursue this path to freedom. Kate Bowler in her essay “Death, the Prosperity Gospel and Me” describes a core mentality of the modern Prosperity Gospel as believing that “'God is in me. God's ability is mine. God's strength is mine. God's health is mine. His success is mine. I am a winner. I am a conqueror.' Or as prosperity believers summarized it for me, 'I am blessed.'" (Bowler 94). Walter seems to possess his own form of this belief but his stems from chemistry instead of God; Walter believes that chemistry’s money is his, its success is his, and its freedom is his. He believes he can get away with it because he has the power of chemistry, the freedom of chemistry; something that is bound by no laws but its own.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/intro.jpg" alt="" />
+						<div class="image-overlay">
+							<p>Opening credits scene showing chemical equations</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="money5">
+					<div class="content">
+						<p style="font-size:80%; margin-left: 5%; margin-right: 5%">
+							He does not know it quite yet, but he yearns not only for the monetary freedom of the American West, but also for its personal freedom. Walter saw the story of opportunity but thought he could do better; that he could get away with it. He saw a chance for change; a new door to be opened in a life filled with doors around him closing. Despite Walt not being religious, Bowler’s essay applies to him again; “And God is always, for some reason, going around closing doors and opening windows. God is super into that" (96). Walter doesn’t quite realize it yet in this scene of “Pilot”, but here God is opening a window after already having closed a door (his diagnosis; unseen by him until later). Once he does realize this, his need, his desire for freedom, monetary freedom, grows exponentially and he is forced to explore the window. He is forced to hope that his story is one that will be successful; he is banking on that “…every now and then, it  works” (98). He simply must believe he can replicate the stories of those successful Western settlers who struck it rich finding gold. Which for a period of time he does find success; he makes his money and achieves a “…future of limitless prosperity…”. His story is one of when it works. He achieved the impossible of making chemistry’s success his own and achieving massive monetary freedom.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/cars.jpg" alt="" />
+						<div class="image-overlay">
+							<p>Walt & Jr.'s flashy new cars S5E4</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="money6">
+					<div class="content">
+						<p style="font-size:80%; margin-left: 5%; margin-right: 5%">
+							Yet he failed to consider two important points. Firstly being that getting away with it, “…involves taking something that was not yours, and so can’t be yours” (Phillips 91); he didn’t realize he couldn’t get away with it as to be successful was to take what wasn’t his. Secondly being that this observation from Adam Phillips in his book Missing Out: In Praise of the Unlived Life, has even more weight when considered with what Michael Taussig had to say about nature (which chemistry is/is a part of) in his book My Cocaine Museum: “Nature can be imitated in order to dominate and profit from it. But only up to a point, because nature will return and exact revenge” (Taussig 80-81). Walter in his pursuit of freedom, of money, forgot to understand the dynamics of the materials, people, laws, and society he was exploiting to do so. He forgot or ignored that he couldn’t just make these people, things, structures of society roll over and bend to his will; there would be repercussions against him. They would want revenge for his actions against them. He may live in Western America, but it most certainly is not the same West that existed in the 1800s. Walt achieved his freedom by taking freedom from others; others who were determined to reclaim what was theirs.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/caught.jpg" alt="" />
+						<div class="image-overlay">
+							<p>Hank finally catches Walt S5E13</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="money7">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							In much the same way that Walter’s story and possession of money came to an end, so too has the Money exhibit. Seen in it was a dive into freedom’s existence as a desire for money. Depicted were the ways in which money has existed and how it has evolved over time; but unchanged is its hold over people as seen by Walt’s reenactment of old Western gold rush and frontier stories. While he may not be religious, his denial of any and all possibility of higher powers and trying to claim their abilities as his own cost Walt his freedom, both monetary and personal. Unlike Walt’s story though, this museum isn’t over; in the next exhibit, the ideas involved in personal freedom will be explored and thus the severity of Walt’s loss but also the whole picture of his story can be understood.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/fire.jpg" alt="" />
+						<div class="image-overlay">
+							<p>Walt burns his money S3E1</p>
+						</div>
+					</div>
+				</section>
+
+<!----- Personal Freedom ------->
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="pf1">
+					<div class="content">
+						<h2>The Personal Freedom Exhibit</h2>
+						<p style="font-size:80%">
+							Before diving into specific examples seen in this exhibit, its best to lay some groundwork so that this exhibit can be better understood. It’s common knowledge that the West of the 1800s in America was a place of uncertainty and was unknown. It was largely unsettled and therefore a clean slate; a place to start anew with little or no prior baggage. People could go out and build for themselves a life as they desired, and for a while, they could do so without much constraint put on them by the law. Simply put, the American West was a place of personal freedom; it was a place of hope. Hope that in his book The Real American Dream, Andrew Delbanco defines as “… the idea that Americans were not fixed in their circumstances of birth, but were free to become whatever they could imagine” (61). For people who felt all doors around them were closed or that life in settled areas was not for them, the West was the place in which they could find hope as Delbanco defines it.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/frontier.png" alt="" />
+						<div class="image-overlay">
+							<p>Settlers heading West for a better life, 1866</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="pf2">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							The West provided the ability for someone to make a name for themselves and become a story like those seen in the Money exhibit; it was where people could follow their dreams. This created a movement of people moving out West; which Virginia Wexman in her book Creating the Couple, said the following about: “The period of westward expansion can also be celebrated nostalgically as one in which individual enterprise flourished” (Wexman 73). The West provided an opportunity for people to run away from society and exist in their own right; which for some, was building up their own enterprise whether that be a gold mine, farm, ranch, or in Walter White’s modern spin, a meth empire. Central to this opportunity was freedom; personal freedom and the ability to express oneself and live unburdened by outside rules.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/rrg.png" alt="" />
+						<div class="image-overlay">
+							<p>Thomas Dunson's Red River D Ranch from <i>Red River</i></p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="pf3">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							Tied into this idea of self-defined freedom, however, is the issue of how it reacts to external forces, namely others following the same idea; “’Western history has been an ongoing competition for legitimacy—for the right to claim for oneself…’”  (qtd. in Wexman 76). Because of how the West existed, legitimacy was only as strong as the claimer’s ability to defend it; there were no laws and as such no justice except the justice a person could impose themselves. It was an unsettled land, a place of freedom, but freedom is a neutral entity; it can exist both as good or bad and is inherently neither. Just as one could go out West and escape the life of the civilized society and build for themselves a life as they envisioned free of judgement or persecution, so too could one go out West and escape the Law and live a life of crime and sin, terrorizing those who were there peacefully. This dichotomy is exactly what freedom is and is why the West was so alluring to many in the 1800s. With the groundwork now laid, specific Western focused artifacts and their entanglement with Breaking Bad and freedom can be viewed.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/Vigilantes.jpg" alt="" />
+						<div class="image-overlay">
+							<p>Frontier vigilante justice</p>
+						</div>
+					</div>
+				</section>
+<!----- Red River ------->
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="pf4">
+					<div class="content">
+						<h3>The West and <i>Red River</i></h3>
+						<p style="font-size:80%; display: inline-block">
+							The first artifact seen is the movie Red River; a Western film from 1948 about a man named Thomas Dunson (played by well-known Western movie star John Wayne) who builds for himself a cattle ranch in Texas from nothing, but as he endeavors on a long journey to sell his cattle, he experiences just what can happen in the West, the land of lawlessness. This film is full of examples of the interplay between personal freedom and the West. It is literally built off of the idea of an “…ongoing competition for legitimacy…” (qtd. in Wexman 76) as Dunson claims he has rights to some land; land that’s already claimed by Don Diego. Diego’s legitimacy to it is only as strong as his henchmen, one of whom Dunson kills. After which, as Dunson expects, he never encounters anyone coming back to dispute his claim to the land and thus his legitimacy is solidified.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/dondiego.png" alt=""/>
+						<div class="image-overlay">
+							<p>Thomas Dunson claiming land; Don Diego's claim is now illegitimate. <i>Red River</i></p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="pf5">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							Dunson acts as he does because he most likely believes in what Wexman calls the “cowboy code” which she describes as, “In contrast to the law, which is written, the cowboy’s code is an expression of a simple oral culture. Because it is spoken, it possesses what Derrida has termed ‘self-presence,’ and the hero’s association with it endows him with superior status” (98). Dunson believes he has the personal freedom to do as he pleases because he ascribes to the “cowboy code;” he believes, until someone challenges him on it, that he has “superior status.” It isn’t until much later in the film after Dunson has pushed his crew too hard and alienated himself from their good graces, that his “superior status” is challenged and lost to his original sidekick. His legitimacy as the leader was only as strong as his ability to defend it, but much like Walter White, eventually he could no longer weather the storm and lost it all. He learned the dichotomy of  freedom, of Western freedom, and how it both giveth and taketh. If only Walter had watched Red River, he might have seen what his future held for him, but he couldn’t look past the “promise” of fortune.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/jack.jpg" alt="" />
+						<div class="image-overlay">
+							<p>Jack taking Walt's money (and freedom) S5E14</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="pf6">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							Much like Thomas Dunson in Red River, Walter pushes so heavily on the boundary of what will be accepted. He seemingly ascribes too to the “cowboy code” as he navigates the world of empire building. Walter thinks he can do as he wants because what he is doing is unlawful; he operates in a zone in which, just like the West, there is little to no recourse for wrongdoing. Everything that occurs is illegal and so the law can’t be invoked for reprimanding, only violence and bloodshed. Walter seems to think he can act with such a high degree of personal freedom because of his intents and his ability. He hides behind his excuse of doing it all for “the family” but that is not enough to protect him. Walt seemingly read and followed the idea that Slotkin talks about here: “… certain actors are accorded a moral privilege: to act on their own initiative, perhaps for the sake of the democratic en masse but without being bounded by the constraints of moral or civic order which the social collective must observe” (34). He seems to think he can simply make and sell meth because his intent is to help his family. Even inside the realm of criminality, he thinks he is not bound by the rules that others must follow; he does what he wants or needs to accomplish his task. Walter thinks and acts as if he is an old Western cowboy who is untouchable by the Law. He desires for personal freedom and simply takes it as he sees fit but just like his monetary freedom, he is attempting to take something that is not his and therefore cannot be his as Phillips says (91).
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/family.png" alt="" />
+						<div class="image-overlay">
+							<p>Walt's world comes crashing down S5E14</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="pf7">
+					<div class="content">
+						<h3>The West and Red Dead Redemption 2</h3>
+						<p style="font-size:80%; display: inline-block">
+							The ultimate artifact of this exhibit, is the video game Red Dead Redemption 2 ; a Western themed open-world, story-driven game set in a fictional 1899 America which follows a band of criminals who exist outside of civilized society. They hope to one day raise enough money to go to Tahiti as they believe there holds the same promise the West once did of freedom. The game is set six years after Turner’s “Frontier Thesis” where he asserts that the American Frontier is closed. This is seen throughout the game as the crew must live as outlaws, always trying to stay one step ahead of the Law.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/vanderlindegang.jpg" alt="" />
+						<div class="image-overlay">
+							<p>Dutch van der Linde's gang from Red Dead Redemption 2</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="pf8">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							RDR2 serves particularly well as a comparison for Breaking Bad as so much of the general structure of the story is similar. The crew in RDR2 is led by Dutch van der Linde who starts off as a regularly level-headed normal person but as the game continues, his ideas become outlandish, wild, and dangerous which alienate him from his crew before it all falls apart at the end of the game. The main character, Arthur Morgan, starts off as a loyal follower of Dutch but grows to question and eventually go against Dutch by the end. Arthur is often concerned with the safety, security, and freedom (from prison) of the crew and prefers a quieter life even if it’s less luxurious. Overall, the game’s story is very similar to Red River’s just with a different plot driver; and both of those are very similar to Breaking Bad’s story.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/arthur.jpg" alt="" />
+						<div class="image-overlay">
+							<p>Arthur Morgan, Red Dead Redemption 2</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="pf9">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							In Dutch can be seen Walter White, a man with endless ambition and filled with outlandish ideas; a man unconcerned with longevity and plagued with short-sightedness. In Arthur can be seen Jesse Pinkman, someone along for the ride and invested but not to the degree of the leader; only concerned with having enough freedom and money to survive and focused on living and the long term over material wealth. Walter parallels Dutch in his ambition and arrogance, always thinking he is untouchable and can do more. Like Walt, Dutch’s ideas grow far too big and risky but he is unable to control himself; his quest for freedom, both personal and monetary, are never ending and cost him everything
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/dutchwalt.png" alt="" />
+						<div class="image-overlay">
+							<p>Dutch van der Linde and Heisenberg</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="pf10">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							Much like Walter talks about there having been a perfect time to die, eventually Dutch realizes he might have gone too far. Given their arrogance, however, neither man is ever able to truly admit they were wrong. Walter does to a degree in “Felina” by telling Skylar he did it all for himself but he doesn’t really take responsibility nor admit he was wrong. He is unable to let go of his desire for personal freedom; unable to let go of the Prosperity Gospel belief that God’s success is his own, and unable to let go of what he felt was promised to him when he saw the news story in “Pilot,” the promise as described by Slotkin of “…a future of limitless prosperity…” (Slotkin 30). Just like Jesse loses his freedom because of Walt, Arthur Morgan loses his life because of Dutch; both lose because the arrogant man above them is blinded by desire for personal freedom.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/forme.png" alt="" />
+						<div class="image-overlay">
+							<p>Walt finally admits it; Jesse is free S5E14</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="pf11">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							Breaking Bad and Red Dead Redemption 2 are one and the same; the same story told with different characters and details. As is Red River. All are like old folk tales in which the story details are altered as they are passed down, usually being modernized, but still retaining the underlying theme. These three stories, and so many more, tell the story of people focused on freedom; focused on monetary freedom and personal freedom. The characters don’t fit in under the rules of society and long for the ability to write their own path; and in some, they can because the circumstances allow it, but in others, it is a doomed tale from the start because it is no longer possible. Walter’s story is one of those; he was always doomed to fail. In 2008 America, there was no more American West as existed before 1893. No longer was there a place where a person could travel and find unlimited possibility while being unconfined by the laws of society. Yet still he tried to force it because freedom is such a powerful desire to have. Walter thought his story would be one of the ones that worked, but because he didn’t know how to quietly end his story, it became one of the many that failed. He could and should have heeded Hank’s words in “Pilot”: “It’s easy money. ‘Till we catch you”.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/easy.png" alt="" />
+						<div class="image-overlay">
+							<p>Hank's advice S1E1</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="pf12">
+					<div class="content">
+						<h3>The Exit</h3>
+						<p style="font-size:80%; display: inline-block">
+							The museum is over; all the exhibits and pieces visited. In the Money exhibit was displayed how integral money, regardless of form, is to the concept of freedom, as well as what the effects and reaches of money is in terms of life; how religion, mentality, and beliefs all have an impact. How money is transient but its grasp everlasting. In the Personal Freedom exhibit was displayed multiple stories of the West and drawn between them the parallels as well as the conclusion that all are the same. All stories reduce to a desire for freedom in some facet (usually at pertaining to money in some regard) but are simply told/exist with different characters and details. Yet this is logical as all desires and forms of freedom reduce to money. Freedom is an abstract concept that if searched for hard enough, can be found to be the root of anything. That is life, a desire to be free of some but not of others; to be free to do X but free to not do Y. That is why freedom is neutral but highly influenceable; it exists both as good and bad and usually both at once depending on where it is observed from.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/freepass.png" alt="" />
+						<div class="image-overlay">
+							<p>Freedom is abstract; Walt as Jesse's "free pass" S3E7 </p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center" id="pf13">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							For Walter White, he existed as a man stuck with no freedom but filled with desire. He longed for a bigger house and larger family but his freedom was withheld by his lack of finances; he had a low paying job which stole away his freedom in many forms. Then he had his freedom stolen again by cancer. When too many doors are closed on one person who yearns so desperately for freedom, any little hint of it may set them off on a quest to obtain it. For Walt, this was the news story in “Pilot”. In it he saw a solution to his problems; he saw freedom for which he had the means to obtain. A freedom which would afford him financial freedom and eventually personal freedom. Freedom to live and work as he pleased. Yet his desires only grew, and much like how the Western Frontier closed in 1893, so too did the door to freedom for Walter, eventually leaving him with nothing. He lost all monetary freedom and almost all personal freedom. He no longer lived under rules of others by the end, but he was not free to do as he pleased or go where he wanted. He had “freedom,” but it was not total as he had hoped.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/nh.png" alt="" />
+						<div class="image-overlay">
+							<p>Walt has lost all personal freedom; trapped in NH S5E15</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center" id="pf14">
+					<div class="content">
+						<p style="font-size:80%; display: inline-block">
+							Perhaps if he had done his research, listened to the vast stories of failure not only of the era of the Frontier, but also of drug dealers, he might have realized he was doomed to fail. He might have realized he was no different from Thomas Dunson or Dutch van der Linde or any other story of a quest for freedom. Instead of being a story of when it works, Walter White’s story, Breaking Bad, is a story of failure, no different from all the rest, simply retold with new characters and a new plot built upon the skeleton that has existed for so long. A story of a quest for freedom that resulted in only a loss of freedom.
+						</p>
+					</div>
+					<div class="image">
+						<img src="../../static/images/bb/end.png" alt="" />
+						<div class="image-overlay">
+							<p>The end of Walt S5E16</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="banner style1 orient-right content-align-left image-position-center" id="workscited">
+					<div class="content">
+						<p style="text-align: center">Works Cited</p>
+						<div class="works-cited" style="display: inline-block">
+							<p class="citation">Bowler, Kate. “Death, the Prosperity Gospel and Me.” <em>The New York Times</em>, The New York Times, 13 Feb. 2016, www.nytimes.com/2016/02/14/opinion/sunday/death-the-prosperity-gospel-and-me.html.</p>
+							<p class="citation">Delbanco, Andrew. <em>The Real American Dream: A Meditation on Hope</em>. Harvard University Press, 1999.</p>
+							<p class="citation">Gilligan, Vince. “Felina.” <em>Breaking Bad</em>, season 5, episode 16, AMC, 29 Sept. 2013.</p>
+							<p class="citation">Gilligan, Vince. “Pilot.” <em>Breaking Bad</em>, season 1, episode 1, AMC, 20 Jan. 2008.</p>
+							<p class="citation">Hawks, Howard, director. <em>Howard Hawks’ Red River</em>. Amazon Prime Video.</p>
+							<p class="citation">“History of U.S. Currency.” U.S. Currency Education Program, U.S. Currency Education Program, www.uscurrency.gov/history. Accessed 12 Dec. 2023.</p>
+							<p class="citation">Phillips, Adam. <em>Missing Out: In Praise of the Unlived Life</em>. Picador/Farrar, Strauss and Giroux, 2014.</p>
+							<p class="citation">Rockstar Games. “Red Dead Redemption 2.” 28 Oct. 2018.</p>
+							<p class="citation">Slotkin, Richard. “The Winning of the West.” <em>Gunfighter Nation: The Myth of the Frontier in Twentieth-Century America</em>, Univ. of Oklahoma Press, Norman, Oklahoma, 2008, pp. 29–62.</p>
+							<p class="citation">Taussig, Michael T. <em>My Cocaine Museum</em>. University of Chicago Press, 2006.</p>
+							<p class="citation">Turner, Frederick Jackson, 1861-1932. <em>The Significance of the Frontier in American History</em>. Madison: State Historical Society of Wisconsin, 1894.</p>
+							<p class="citation">Wexman, Virginia Wright. “Star and Genre: John Wayne, the Western, and the American Dream of the Family on the Land.” <em>Creating the Couple: Love, Marriage, and Hollywood Performance</em>, Princeton University Press, Princeton, NJ, 1993, pp. 67–113.</p>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="wrapper style1 align-center" id="files">
+					<div class="inner">
+						<h2>Files</h2>
+						<p>Linked below is a pdf and docx copy of my paper as well as a standalone Works Cited</p>
+						<div class="items style1 medium">
+							<section>
+								<span class="icon style2 major fa-save"></span>
+								<a class="button icon solid fa-download" href="{% url 'museumpdf' %}" target="_blank">pdf</a>
+							</section>
+							<section>
+								<span class="icon style2 major fa-save"></span>
+								<a class="button icon solid fa-download" href="{% url 'museumdocx' %}">docx</a>
+							</section>
+							<section>
+								<span class="icon style2 major fa-save"></span>
+								<a class="button icon solid fa-download" href="{% url 'museumwc' %}" target="_blank">Works Cited</a>
+							</section>
+						</div>
+					</div>
+				</section>
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="actions small" style="justify-content: center">
+								<li><a href="#top" class="button small wide smooth-scroll-middle">Back to the top</a></li>
+							</ul>
+							<p>&copy; Riley Immel 2023. Design: <a href="https://html5up.net">HTML5 UP</a></p>
+						</div>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../static/assets/js/jquery.min.js"></script>
+			<script src="../../static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../static/assets/js/browser.min.js"></script>
+			<script src="../../static/assets/js/breakpoints.min.js"></script>
+			<script src="../../static/assets/js/util.js"></script>
+			<script src="../../static/assets/js/main.js"></script>
+
+	</body>
+</html>
