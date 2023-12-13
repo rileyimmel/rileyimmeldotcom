@@ -1,3 +1,3 @@
 release: python manage.py migrate
-web: gunicorn rileyimmeldotcom.wsgi --log-file -
+web: gunicorn mainsite.wsgi --log-file -
 worker: python -u run-worker.py
