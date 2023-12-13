@@ -136,6 +136,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
@@ -146,9 +148,6 @@ STATICFILES_DIRS = (
     os.path.join(SITE_ROOT, 'mainsite/static/'),
 )
 
-try:
-    if 'HEROKU' in os.environ:
-        import django_heroku
-        django_heroku.settings(locals())
-except ImportError:
-    found = False
+
+import django_heroku
+django_heroku.settings(locals())
