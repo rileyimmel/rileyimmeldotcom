@@ -22,9 +22,9 @@ if (!window["jQuery"])
 (function(f) {
   "use strict";
   "function" === typeof define && define.amd
-    ? define(["rileyimmeldotcom/mainsite/static/jquery"], f)
+    ? define(["mainsite/static/jquery"], f)
     : "undefined" !== typeof module && module.exports
-      ? (module.exports = f(require("rileyimmeldotcom/mainsite/static/jquery")))
+      ? (module.exports = f(require("mainsite/static/jquery")))
       : f(jQuery);
 })(function($) {
   "use strict";
@@ -152,7 +152,7 @@ if (!window["jQuery"])
  * @version 2.0.0
  */
 !(function(e) {
-  "function" == typeof define && define.amd ? define(["rileyimmeldotcom/mainsite/static/jquery"], e) : e(jQuery);
+  "function" == typeof define && define.amd ? define(["mainsite/static/jquery"], e) : e(jQuery);
 })(function(e) {
   function t(t, o, n) {
     var i = o.hash.slice(1),

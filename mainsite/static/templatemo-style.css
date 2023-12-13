@@ -171,12 +171,12 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 	{
-        background: url('./dolly.JPG');
         background-size: cover;
-        background-repeat: no-repeat;
+        background: url('dollyfilm.jpg') no-repeat;
         padding-top: 120px;
         padding-bottom: 140px;
-        text-align: center;
+        text-align: right;
+        background-position: center;
 	}
 #home h1
     {
