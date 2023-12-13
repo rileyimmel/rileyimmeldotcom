@@ -153,7 +153,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SITE_ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 STATICFILES_DIRS = (
-    os.path.join(SITE_ROOT, 'mainsite/static/'),
+    os.path.join(SITE_ROOT, 'mainsite/static'),
 )
 
 django_heroku.settings(locals())
