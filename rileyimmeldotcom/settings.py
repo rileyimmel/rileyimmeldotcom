@@ -134,8 +134,27 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATIC_URL = 'static/'
+
+# SITE_ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+# STATICFILES_DIRS = (
+#     os.path.join(SITE_ROOT, 'mainsite/static'),
+# )
+
+django_heroku.settings(locals())
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/2.2/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+]
+# Whitenoise Storage Class  - Apply compression but don’t want the caching behaviour
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+# Comment the below line
+# django_heroku.settings(locals())
 
 # STORAGES = {
 #     # Enable WhiteNoise's GZip and Brotli compression of static assets:
@@ -151,12 +170,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SITE_ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-STATICFILES_DIRS = (
-    os.path.join(SITE_ROOT, 'mainsite/static'),
-)
-
-django_heroku.settings(locals())
 
 # config = locals()
 # config['STORAGES']['staticfiles'] = config['STATICFILES_STORAGE']
